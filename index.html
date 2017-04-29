@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    img {
+      position: absolute;
+      top: 70px;
+      left: 0;
+
+      -webkit-transform: rotate(0deg);
+      -webkit-transitions: left 1s linear, -webkit-transform 1s linear;
+      -moz-transform: rotate(0deg);
+      -moz-transitions: left 1s linear, -moz-transform 1s linear;
+      -o-transform: rotate(0deg);
+      -o-transitions: left 1s linear, -o-transform 1s linear;
+    }
+    div:hover img{
+      position: absolute;
+      left: 30px;
+
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div><img src="images/03.jpg" alt="*"></div>
+</body>
+</html>
